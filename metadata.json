@@ -1,0 +1,10 @@
+{
+  "name": "Voice AI Assistant",
+  "description": "Voice-controlled AI assistant with real-time speech responses and animated visual feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
