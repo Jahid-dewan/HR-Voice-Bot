@@ -40,7 +40,7 @@ function extractCleanErrorMessage(err: any): string {
     return "Gemini API request limit temporarily reached. Please wait a moment and try again.";
   }
   if (raw.includes("GEMINI_API_KEY")) {
-    return "Gemini API key is not configured. Please add your key in Settings > Secrets.";
+    return "Gemini API key is not configured. Please add the GEMINI_API_KEY environment variable in your Render dashboard (under Environment).";
   }
   return raw;
 }
